@@ -52,7 +52,7 @@ void CrearScript() {
   Script.print("import urllib2,json \n");
   Script.print("data = urllib2.urlopen('");
   Script.print("http://graph.facebook.com/");
-  Script.print(a);
+  Script.print(FbFanpage);
   Script.print("').read() \n");
   Script.print("json_data = json.loads(data)\n");
   Script.print("print ('%s') % (json_data['likes'])\n");
